@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F385B02A1757478700A794E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F385B0291757478700A794E2 /* UIKit.framework */; };
+		F385B02C1757478700A794E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F385B02B1757478700A794E2 /* Foundation.framework */; };
+		F385B02E1757478700A794E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F385B02D1757478700A794E2 /* CoreGraphics.framework */; };
+		F385B0341757478700A794E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F385B0321757478700A794E2 /* InfoPlist.strings */; };
+		F385B0361757478700A794E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F385B0351757478700A794E2 /* main.m */; };
+		F385B03A1757478700A794E2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F385B0391757478700A794E2 /* BIDAppDelegate.m */; };
+		F385B03C1757478700A794E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F385B03B1757478700A794E2 /* Default.png */; };
+		F385B03E1757478700A794E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F385B03D1757478700A794E2 /* Default@2x.png */; };
+		F385B0401757478700A794E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F385B03F1757478700A794E2 /* Default-568h@2x.png */; };
+		F385B0431757478700A794E2 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F385B0421757478700A794E2 /* BIDViewController.m */; };
+		F385B0461757478700A794E2 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F385B0441757478700A794E2 /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F385B0261757478700A794E2 /* 水电费.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "水电费.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F385B0291757478700A794E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F385B02B1757478700A794E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F385B02D1757478700A794E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F385B0311757478700A794E2 /* 水电费-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "水电费-Info.plist"; sourceTree = "<group>"; };
+		F385B0331757478700A794E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F385B0351757478700A794E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F385B0371757478700A794E2 /* 水电费-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "水电费-Prefix.pch"; sourceTree = "<group>"; };
+		F385B0381757478700A794E2 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		F385B0391757478700A794E2 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		F385B03B1757478700A794E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F385B03D1757478700A794E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F385B03F1757478700A794E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F385B0411757478700A794E2 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		F385B0421757478700A794E2 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		F385B0451757478700A794E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F385B0231757478700A794E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F385B02A1757478700A794E2 /* UIKit.framework in Frameworks */,
+				F385B02C1757478700A794E2 /* Foundation.framework in Frameworks */,
+				F385B02E1757478700A794E2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F385B01D1757478700A794E2 = {
+			isa = PBXGroup;
+			children = (
+				F385B02F1757478700A794E2 /* 水电费 */,
+				F385B0281757478700A794E2 /* Frameworks */,
+				F385B0271757478700A794E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F385B0271757478700A794E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F385B0261757478700A794E2 /* 水电费.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F385B0281757478700A794E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F385B0291757478700A794E2 /* UIKit.framework */,
+				F385B02B1757478700A794E2 /* Foundation.framework */,
+				F385B02D1757478700A794E2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F385B02F1757478700A794E2 /* 水电费 */ = {
+			isa = PBXGroup;
+			children = (
+				F385B0381757478700A794E2 /* BIDAppDelegate.h */,
+				F385B0391757478700A794E2 /* BIDAppDelegate.m */,
+				F385B0411757478700A794E2 /* BIDViewController.h */,
+				F385B0421757478700A794E2 /* BIDViewController.m */,
+				F385B0441757478700A794E2 /* BIDViewController.xib */,
+				F385B0301757478700A794E2 /* Supporting Files */,
+			);
+			path = "水电费";
+			sourceTree = "<group>";
+		};
+		F385B0301757478700A794E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F385B0311757478700A794E2 /* 水电费-Info.plist */,
+				F385B0321757478700A794E2 /* InfoPlist.strings */,
+				F385B0351757478700A794E2 /* main.m */,
+				F385B0371757478700A794E2 /* 水电费-Prefix.pch */,
+				F385B03B1757478700A794E2 /* Default.png */,
+				F385B03D1757478700A794E2 /* Default@2x.png */,
+				F385B03F1757478700A794E2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F385B0251757478700A794E2 /* 水电费 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F385B0491757478700A794E2 /* Build configuration list for PBXNativeTarget "水电费" */;
+			buildPhases = (
+				F385B0221757478700A794E2 /* Sources */,
+				F385B0231757478700A794E2 /* Frameworks */,
+				F385B0241757478700A794E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "水电费";
+			productName = "水电费";
+			productReference = F385B0261757478700A794E2 /* 水电费.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F385B01E1757478700A794E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "cyou-Mac-005";
+			};
+			buildConfigurationList = F385B0211757478700A794E2 /* Build configuration list for PBXProject "水电费" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F385B01D1757478700A794E2;
+			productRefGroup = F385B0271757478700A794E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F385B0251757478700A794E2 /* 水电费 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F385B0241757478700A794E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F385B0341757478700A794E2 /* InfoPlist.strings in Resources */,
+				F385B03C1757478700A794E2 /* Default.png in Resources */,
+				F385B03E1757478700A794E2 /* Default@2x.png in Resources */,
+				F385B0401757478700A794E2 /* Default-568h@2x.png in Resources */,
+				F385B0461757478700A794E2 /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F385B0221757478700A794E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F385B0361757478700A794E2 /* main.m in Sources */,
+				F385B03A1757478700A794E2 /* BIDAppDelegate.m in Sources */,
+				F385B0431757478700A794E2 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F385B0321757478700A794E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F385B0331757478700A794E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F385B0441757478700A794E2 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F385B0451757478700A794E2 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F385B0471757478700A794E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F385B0481757478700A794E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F385B04A1757478700A794E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "水电费/水电费-Prefix.pch";
+				INFOPLIST_FILE = "水电费/水电费-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F385B04B1757478700A794E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "水电费/水电费-Prefix.pch";
+				INFOPLIST_FILE = "水电费/水电费-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F385B0211757478700A794E2 /* Build configuration list for PBXProject "水电费" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F385B0471757478700A794E2 /* Debug */,
+				F385B0481757478700A794E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F385B0491757478700A794E2 /* Build configuration list for PBXNativeTarget "水电费" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F385B04A1757478700A794E2 /* Debug */,
+				F385B04B1757478700A794E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F385B01E1757478700A794E2 /* Project object */;
+}
