@@ -24,9 +24,10 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[BIDViewController alloc] initWithNibName:@"BIDViewController" bundle:nil] autorelease];
+    //sdfsdf
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    return YES;
+    return YES;    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
